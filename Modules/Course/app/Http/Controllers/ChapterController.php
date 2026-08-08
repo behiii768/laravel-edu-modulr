@@ -1,10 +1,12 @@
 <?php
 
-namespace App\Http\Controllers;
 
+namespace Modules\Course\Http\Controllers;
+
+use App\Http\Controllers\Controller; 
 use Illuminate\Http\Request;
-use App\Models\Chapter ;
-use Illuminate\Support\Facades\Gate ;
+use Modules\Course\Models\Chapter; 
+use Illuminate\Support\Facades\Gate;
 
 class ChapterController extends Controller
 {

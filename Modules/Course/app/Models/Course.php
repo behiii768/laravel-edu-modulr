@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Models;
+namespace Modules\Course\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use App\Models\User ;
+use Modules\Models\User ;
 use App\Models\Section ;
 
 class Course extends Model
