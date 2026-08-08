@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController ;
 use App\Http\Controllers\CourseController ;
 use App\Http\Controllers\ChapterController ;
-use App\Http\Controllers\SectionController ;
+use App\Http\Controllers\SectionController ; 
 use App\Http\Controllers\EnrollmentController ;
 use App\Http\Controllers\DashboardController ;
 use App\Http\Controllers\UserController ;
