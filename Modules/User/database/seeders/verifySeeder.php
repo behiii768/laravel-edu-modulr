@@ -9,7 +9,7 @@ use Carbon\Carbon ;
 use Illuminate\Support\Facades\Hash ;
 use Illuminate\Support\Str;
 
-class verifySeeder extends Seeder
+class VerifySeeder extends Seeder
 {
     /**
      * Run the database seeds.
