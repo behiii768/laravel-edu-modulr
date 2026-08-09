@@ -3,7 +3,7 @@
 namespace Modules\Course\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Modules\Models\User ;
+use Modules\User\Models\User;
 use App\Models\Section ;
 
 class Course extends Model

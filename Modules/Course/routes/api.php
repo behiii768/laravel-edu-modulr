@@ -2,6 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 use Modules\Course\Http\Controllers\CourseController;
+use Modules\Course\Http\Controllers\UserController;
+use Modules\Course\Http\Controllers\ChapterController;
+use Modules\Course\Http\Controllers\SectionController;
+use Modules\Course\Http\Controllers\EnrollmentController;
 
 Route::middleware(['auth:sanctum'])->prefix('v1')->group(function () {
     Route::apiResource('courses', CourseController::class)->names('course');

@@ -2,10 +2,11 @@
 
 namespace Modules\Course\Http\Controllers;
 
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Models\Course ;
-use App\Models\UserCourse ;
-use App\Models\User ;
+use Modules\Course\Models\Course ;
+use Modules\Course\Models\UserCourse ;
+use Modules\User\Models\User;
 
 class EnrollmentController extends Controller
 {

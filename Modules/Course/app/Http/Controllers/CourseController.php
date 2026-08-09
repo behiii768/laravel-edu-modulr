@@ -2,9 +2,11 @@
 
 namespace Modules\Course\Http\Controllers;
 
+
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Gate ;
-use App\Models\Course ;
+use Modules\Course\Models\Course ;
 
 class CourseController extends Controller
 {

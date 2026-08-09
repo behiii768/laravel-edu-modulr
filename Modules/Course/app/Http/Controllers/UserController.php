@@ -2,12 +2,14 @@
 
 namespace Modules\Course\Http\Controllers;
 
+use App\Http\Controllers\Controller;
+
 use Illuminate\Http\Request;
 use App\Models\User ;
-use App\Models\Course ;
-use App\Models\UserCourse ;
+use Modules\Course\Models\Course ;
+use Modules\Course\Models\UserCourse ;
 use App\Models\Section ;
-
+ 
 class UserController extends Controller
 {
     public function userCourse(Request $request , Course $course)

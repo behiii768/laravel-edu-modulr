@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Policies;
+namespace Modules\Course\Policies;
 
 use App\Models\Chapter;
-use App\Models\User;
+use Modules\User\Models\User;
 use Illuminate\Auth\Access\Response;
 
 class ChapterPolicy

@@ -1,18 +1,19 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace Modules\User\Http\Controllers;
 
+use App\Http\Controllers\Controller; 
 use Illuminate\Http\Request;
-use App\Models\User ;
+use Modules\User\Models\User ;
 use Illuminate\Support\Facades\Hash ;
 use Illuminate\Support\Facades\Mail ;
-use App\Models\VerificationCode ;
+use Modules\User\Models\VerificationCode ;
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\Auth ;
 
 class AuthController extends Controller
 {
-
+ 
     public function sendCode(Request $request)
     {
         $request->validate([

@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Policies;
+namespace Modules\Course\Policies;
 
-use App\Models\Section;
-use App\Models\User;
+use Modules\Course\Models\Section;
+use Modules\User\Models\User;
 use Illuminate\Auth\Access\Response;
 
 class SectionPolicy
